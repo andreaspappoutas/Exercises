@@ -176,12 +176,7 @@ plt.plot(x,y)
                                                                                 
 plt.title("Chart")                                                              
 plt.ylabel("Values")                                                            
-plt.xlabel("Time")
-
-plt.plot(x,y)                                                                                                                                                                       
-plt.title("Chart")                                                              
-plt.ylabel("Values")                                                            
-plt.xlabel("Time")                                                                        
+plt.xlabel("Time")                                                                      
                                                                                 
 plt.show()                                                                      
                                                                                 
@@ -246,3 +241,14 @@ git-bars -p day
 ```
 git-bars -p day -u andreaspappoutas
 ```
+
+# 3 - προγραμματισμός
+Ασκηση: Κατανοήστε τον τρόπο λειτουργίας των εικόνων τύπου SVG και στη συνέχεια τροποποιείστε το παράδειγμα δημιουργώντας δίπλα στην υπάρχουσα εικόνα, μια ίδια (που να εκτελεί την ίδια λειτουργία) του μισού μεγέθους.
+
+Μέσο του transform: scale(0.5); άλλαξα το μέγεθος της εικόνας. Έβαλα επίσης κι'άλλους τρόπους αλλαγής
+
+[Codepen Link](https://codepen.io/andreaspappoutas/pen/vYKLgXO)
+
+[Link Κώδικα](https://github.com/andreaspappoutas/site/blob/master/_remix/image.md)
+
+[Link σελίδας αποτελέσματος](https://andreaspappoutas.netlify.app/remix/image/)
