@@ -9,7 +9,7 @@
 | <a href="#P-1">2</a> |<a href="#P-1"> Άσκηση προγραμματισμού</a> |
 | <a href="#P-2">3</a> |<a href="#P-2">  Άσκηση γραμμής εντολών</a> |
 | <a href="#P-3">4<a href="#P-3"> |<a href="#P-3"> Άσκηση προγραμματισμού + αίτημα ενσωμάτωσης (CSCW, IV)<a href="#P-3"> |
-| <a href="#P-4">5 </a>| <a href="#P-3">Άσκηση γραμμής εντολών </a>|
+| <a href="#P-4">5 </a>| <a href="#P-4">Άσκηση γραμμής εντολών </a>|
 | 6 | Άσκηση προγραμματισμού (HCI) ή γραμμής εντολών (SW)+ συμμετοχικό περιεχόμενο |
 | 7 | Άσκηση γραμμής εντολών (SW) + αίτημα ενσωμάτωσης (CSCW, IV) |
 | 8 | Άσκηση προγραμματισμού (HCI) ή γραμμής εντολών (SW) |
@@ -195,3 +195,41 @@ plt.savefig('plot.png')
 
 ![plot](https://user-images.githubusercontent.com/44147982/96948001-46a5ae80-14ed-11eb-9536-0e6df7642265.png)
 
+
+
+
+
+
+
+---
+---
+
+
+# άλλες
+# 1 - προγραμματισμού
+Άσκηση: Επεκτείνετε τον κώδικα του παραδείγματος έτσι ώστε κατά την επιλογή του κουμπιού (κλικ), να εφαρμόζεται μια λειτουργία της επιλογής σας.
+Άλλαξα το κώδικα έτσι ώστε να υπάρχει animation με το κλικ. Πρώτα απ όλα φτιάχνουμε νέο class μέσα στο οποίο θα γίνονται όλα που γίνονταν και πριν με τι διαφορά ότι θα τρέχουμε το παρακάτω animation.
+```
+animation: test1 2s ease-in-out;
+```
+Αλλάζουμε και κατάλληλα στο κώδικα js. Ακολούθως μέσο keyframes φτιάχνουμε το animation. Κάνω χρήση keyframes για καλύτερο ελέγχω του.
+```
+@keyframes test1 {
+  0% {
+    transform: scale(0);
+  }
+
+	
+
+  50% {
+    transform: scale(2);
+  }
+	100% {
+    transform: scale(1);
+  }
+```
+[Codepen Link](https://codepen.io/andreaspappoutas/pen/zYBoQGX)
+
+[Link Κώδικα](https://github.com/andreaspappoutas/site/blob/master/_remix/button.md)
+
+[Link σελίδας αποτελέσματος](https://andreaspappoutas.netlify.app/remix/button/)
