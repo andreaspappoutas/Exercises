@@ -233,3 +233,16 @@ animation: test1 2s ease-in-out;
 [Link Κώδικα](https://github.com/andreaspappoutas/site/blob/master/_remix/button.md)
 
 [Link σελίδας αποτελέσματος](https://andreaspappoutas.netlify.app/remix/button/)
+
+
+# 2 - εντολών
+Άσκηση: visualize git commits |	display your commits from a previous course, eg hci
+# [Asciinema Git Bars](https://asciinema.org/a/367163)
+Σε αυτή τη άσκηση έγινε χρήση του git bars. Μετά τη εγκατάσταση του git bars μέσο python έκανα clone το SW απο το δικο μου fork. Με τη πιο κάτω εντολή βλέπω όλα τα commits στο SW ανά μέρα:
+```
+git-bars -p day
+```
+Για να φανούν μόνο τα commits από εμένα έτρεξα το παρακάτω:
+```
+git-bars -p day -u andreaspappoutas
+```
